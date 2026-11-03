@@ -36,16 +36,16 @@ class _DashboardPageState extends State<DashboardPage> {
     String label;
 
     if (stok == 0) {
-      warnaLatar = Colors.red.shade100;
-      warnaTeks = Colors.red.shade900;
+      warnaLatar = const Color.fromARGB(255, 6, 158, 185);
+      warnaTeks = const Color.fromARGB(255, 183, 0, 0);
       label = 'Habis';
     } else if (stok <= 5) {
-      warnaLatar = Colors.amber.shade100;
-      warnaTeks = Colors.amber.shade900;
+      warnaLatar = const Color.fromARGB(255, 6, 158, 185);
+      warnaTeks = const Color.fromARGB(255, 209, 208, 208);
       label = 'Sisa $stok';
     } else {
-      warnaLatar = Colors.green.shade100;
-      warnaTeks = Colors.green.shade900;
+      warnaLatar = const Color.fromARGB(255, 6, 158, 185);
+      warnaTeks = const Color.fromARGB(255, 0, 213, 14);
       label = 'Stok $stok';
     }
 
@@ -86,7 +86,7 @@ class _DashboardPageState extends State<DashboardPage> {
           children: [
             Icon(
               Icons.point_of_sale,
-              color: Colors.amber,
+              color: Color.fromARGB(255, 185, 214, 0),
               size: 24,
             ),
             SizedBox(width: 8),
@@ -115,8 +115,8 @@ class _DashboardPageState extends State<DashboardPage> {
             decoration: BoxDecoration(
               gradient: const LinearGradient(
                 colors: [
-                  Color(0xFF1E3A8A),
-                  Color(0xFF3B82F6),
+                  Color.fromARGB(255, 27, 221, 179),
+                  Color.fromARGB(255, 0, 223, 130),
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,

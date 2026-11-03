@@ -57,9 +57,9 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
             });
           },
           type: BottomNavigationBarType.fixed,
-          backgroundColor: Colors.white,
-          selectedItemColor: const Color(0xFF1E3A8A),
-          unselectedItemColor: Colors.grey.shade500,
+          backgroundColor: const Color.fromARGB(255, 4, 193, 178),
+          selectedItemColor: const Color.fromARGB(255, 242, 242, 243),
+          unselectedItemColor: const Color.fromARGB(255, 163, 24, 24),
           selectedLabelStyle: const TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 11,

@@ -26,8 +26,8 @@ class SmartKasirApp extends StatelessWidget {
         appBarTheme: const AppBarTheme( 
           centerTitle: true, 
           elevation: 2, 
-          backgroundColor: Color(0xFF1E3A8A), 
-          foregroundColor: Colors.white, 
+          backgroundColor: Color.fromARGB(255, 162, 232, 12), 
+          foregroundColor: Color.fromARGB(255, 125, 119, 19), 
         ), 
       ), 
       // [PERUBAHAN TAHAP 7.5]: Titik awal aplikasi dibuka pertama kali melalui SplashScreenPage() 

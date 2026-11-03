@@ -53,7 +53,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 165, 122, 19),
+      backgroundColor: const Color.fromARGB(255, 0, 186, 149),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -74,7 +74,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
               child: const Icon(
                 Icons.point_of_sale_rounded,
                 size: 72,
-                color: Color(0xFF1E3A8A),
+                color: Color.fromARGB(255, 39, 84, 57),
               ),
             ),
             const SizedBox(height: 24),
@@ -83,7 +83,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Color.fromARGB(255, 7, 131, 22),
                 letterSpacing: 1.2,
               ),
             ),
@@ -92,7 +92,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
               'Aplikasi Kasir Point of Sale Digital',
               style: TextStyle(
                 fontSize: 13,
-                color: Colors.white70,
+                color: Color.fromARGB(255, 7, 131, 22),
               ),
             ),
             const SizedBox(height: 36),
@@ -109,7 +109,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
               'Menyiapkan sistem SmartKasir ($_durasiDetik detik)...',
               style: const TextStyle(
                 fontSize: 12,
-                color: Colors.white70,
+                color: Color.fromARGB(179, 161, 66, 66),
               ),
             ),
             const SizedBox(height: 40),
@@ -117,7 +117,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
               'Versi 1.0.0 — Modul Pertemuan 10',
               style: TextStyle(
                 fontSize: 11,
-                color: Colors.blue.shade200,
+                color: const Color.fromARGB(255, 80, 105, 125),
               ),
             ),
           ],
